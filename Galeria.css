@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .contacto-superior {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+  z-index: 10;
+  background: rgba(255,255,255,0.7);
+  padding: 6px 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.icono-red {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+  
+
+  .logo{
+    
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+
+  .fondo img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  }
+
+.Galeria h1 {
+  font-family: 'Arial', sans-serif;
+  font-size:xx-large;
+  color: #333;
+  text-align: center;
+}
+.GaleriaContenedorAros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.GaleriaContenedorAros img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}

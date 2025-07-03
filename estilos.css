@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .contacto-superior {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+  z-index: 10;
+  background: rgba(255,255,255,0.7);
+  padding: 6px 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.icono-red {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+  
+
+  .logo{
+    
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  .fondo img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  }
+
+  .Categoria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.Categoria a {
+  text-decoration: none;
+  border-radius: inherit;
+}
+
+.Categoria a div {
+  width: 300px;
+  height: 300px;
+  border-style: groove;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.Categoria a div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.CategoriaContenedorAros {
+  background-image: url("ImagenesProductos/aros/aros04.jpg");
+}
+
+.CategoriaContenedorBilleteras {
+  background-image:url("ImagenesProductos/billeteras/billetera01.jpg") ;
+}
+
+.CategoriaContenedorCarteras {
+  background-image: url("ImagenesProductos/cartera/cartera01.jpg");
+}
+
+.CategoriaContenedorBolsos {
+  background-image: url("ImagenesProductos/bolsos/bolso03.jpg");
+}
+
+.CategoriaContenedorPulseras {
+  background-image: url("ImagenesProductos/pulseras/pulsera01.jpg");
+}
+
+.CategoriaContenedorCuello {
+  background-image: url("ImagenesProductos/cuello/cuello01.jpg");
+}
+
+.CategoriaContenedorPelo {
+  background-image: url("ImagenesProductos/pelo/pelo01.jpg");
+}
+
+.CategoriaContenedorVarios {
+  background-image: url("ImagenesProductos/varios/varios04.jpg");
+}
